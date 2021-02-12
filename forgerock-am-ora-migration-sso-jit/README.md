@@ -5,7 +5,7 @@ ForgeRock does not warrant, guarantee or make any representations regarding the 
 <br><br>
 ForgeRock shall not be liable for any direct, indirect or consequential damages or costs of any type arising out of any action taken by you or others related to the sample code.
 
-# Modernize IAM Accelerators - AM Based Bi-Directional SSO and JIT Toolkit - Migration from Oracle 11G OAM to ForgerRock
+# Modernize IAM Accelerators - AM Based Bi-Directional SSO and JIT Toolkit - Migration from Oracle 11G OAM to ForgeRock
 With deployments of tens or hundreds of legacy applications, migration waves may be required to minimize the operational impact on production systems. With this type of use case, coexistence and SSO between OAM and ForgeRock IAM is often needed.
 Sometimes putting IG in front of a legacy system is not an option for commercial reasons. 
 
@@ -14,7 +14,7 @@ Please find below the new features and improvements for the 7.0 Miami Accelerato
 
 ### <h2>ForgeRock Modernize IAM Accelerators Oracle Plug In Updates</h2>
 
-### <i>Updated - Modernize IAM Accelerators - AM Based Bi-Directional SSO and JIT Toolkit - Migration from Oracle 11G OAM to ForgerRock</i>
+### <i>Updated - Modernize IAM Accelerators - AM Based Bi-Directional SSO and JIT Toolkit - Migration from Oracle 11G OAM to ForgeRock</i>
 
 + Switched to using the AM 7 identity management nodes
     + Decommissioned Legacy-ORA-Set Password node and replaced it with Patch Object node
@@ -26,7 +26,7 @@ Please find below the new features and improvements for the 7.0 Miami Accelerato
 + Updated code base to support Java 11 dependencies.
 
 ## 1. Contents
-The toolkit provides a collection of custom Nodes and a oracleMigrationSsoTree that can handle very complex migration scenarios, including Bi-Directional SSO between Legacy OAM11G and Forgerock AM.
+The toolkit provides a collection of custom Nodes and a oracleMigrationSsoTree that can handle very complex migration scenarios, including Bi-Directional SSO between Legacy OAM11G and ForgeRock AM.
 The framework can be easily extended to support migrations from any OAM11G platform that is capable of exposing client SDKs/APIs for operations such as:
     - Validate existing Legacy IAM tokens
     - Authentication API (with a username and password input)
